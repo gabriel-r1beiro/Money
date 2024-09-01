@@ -1,4 +1,4 @@
-import logoImg from "../../assets/Ignite simbol.png"
+import logoImg from "../../assets/Logo.png"
 import { Conteiner, Content } from "./style"
 
 export const Header = () => {
@@ -12,4 +12,4 @@ export const Header = () => {
             </Content>
         </Conteiner>
     )
-}
+};
