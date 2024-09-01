@@ -4,7 +4,7 @@ import { api } from '../../services/api'
 
 export const TransactionsTable = () => {
     useEffect(() => {
-        api.get("transations")
+        api.get("transactions")
             .then(response => console.log(response.data))
     }, [])
 
