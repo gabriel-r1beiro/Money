@@ -28,6 +28,7 @@ export const NewTransactionModal = ({isOpen, onRequestClose}: NewModalProps) => 
         api.post("transactions", data)
     }
     return (
+        // Modal gera uma pagina por cima das paginas, como a nova transações
         <Modal
             isOpen={isOpen}
             onRequestClose={onRequestClose}
